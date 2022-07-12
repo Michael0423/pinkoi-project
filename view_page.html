@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinkoi 網站切版</title>
+
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        #app {
+            margin: 0 auto;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        ul li {
+            list-style-type: none;
+            margin: 3px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header .header-left {
+            display: flex;
+        }
+        
+        .menus {
+            justify-content: space-around;
+        }
+        
+        .banner {
+            margin: 0 auto;
+            width: 60%;
+            overflow: hidden;
+        }
+        
+        .products {
+            display: flex;
+        }
+
+        .product {
+            margin: 3px;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 3px;
+        }
+
+        .blogs {
+            display: flex;
+        }
+
+        .blog {
+            margin: 3px;
+            padding: 3px;
+            border: 1px solid;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+
+        <header>
+            <div class="header-left">
+                <div class="logo"><img src="./src/asset/images/w130h50-logo.svg" alt="" srcset=""></div>
+                <div class="search-bar">
+                    <input type="text" name="" id="" placeholder="搜尋好設計、體驗活動">
+                    <input type="button" value="搜尋">
+                </div>
+            </div>
+            
+            <div class="header-right">
+                <input type="button" value="登入">
+                <input type="button" value="註冊">
+            </div>
+        </header>
+
+        <ul class="menus">
+            <li class="meun"><a href="">Menu A</a></li>
+            <li class="meun"><a href="">Menu B</a></li>
+            <li class="meun"><a href="">Menu C</a></li>
+            <li class="meun"><a href="">Menu D</a></li>
+            <li class="meun"><a href="">Menu E</a></li>
+            <li class="meun"><a href="">Menu F</a></li>
+            <li class="meun"><a href="">Menu G</a></li>
+            <li class="meun"><a href="">Menu H</a></li>
+        </ul>
+
+        <div class="banner">
+            <ul>
+                <li class="banner-item"><a href="#"><img src="/src/asset/images/w720h405-frame.svg" alt=""
+                            srcset=""></a></li>
+                <li class="banner-item"><a href="#"><img src="/src/asset/images/w720h405-frame.svg" alt=""
+                            srcset=""></a></li>
+                <li class="banner-item"><a href="#"><img src="/src/asset/images/w720h405-frame.svg" alt=""
+                            srcset=""></a></li>
+                <li class="banner-item"><a href="#"><img src="/src/asset/images/w720h405-frame.svg" alt=""
+                            srcset=""></a></li>
+            </ul>
+        </div>
+
+        <div class="products-area">
+            <h3>Products</h3>
+            <div class="products">
+                <div class="product">
+                    <img src="/src/asset/images/w200h200-product.svg" alt="" srcset="">
+                    <h3>product name</h3>
+                    <div class="market">market name</div>
+                    <div class="price">price</div>
+                </div>
+                <div class="product">
+                    <img src="/src/asset/images/w200h200-product.svg" alt="" srcset="">
+                    <h3>product name</h3>
+                    <div class="market">market name</div>
+                    <div class="price">price</div>
+                </div>
+                <div class="product">
+                    <img src="/src/asset/images/w200h200-product.svg" alt="" srcset="">
+                    <h3>product name</h3>
+                    <div class="market">market name</div>
+                    <div class="price">price</div>
+                </div>
+                <div class="product">
+                    <img src="/src/asset/images/w200h200-product.svg" alt="" srcset="">
+                    <h3>product name</h3>
+                    <div class="market">market name</div>
+                    <div class="price">price</div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="blogs-area">
+            <h3>Blogs</h3>
+            <div class="blogs">
+                <div class="blog">
+                    <img src="/src/asset/images/w400h250-blog.svg" alt="" srcset="">
+                    <p>blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.</p>
+                </div>
+                <div class="blog">
+                    <img src="/src/asset/images/w400h250-blog.svg" alt="" srcset="">
+                    <p>blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.</p>
+                </div>
+                <div class="blog">
+                    <img src="/src/asset/images/w400h250-blog.svg" alt="" srcset="">
+                    <p>blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.blog content.</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            Footer Content
+        </footer>
+    </div>
+
+</body>
+
+</html>

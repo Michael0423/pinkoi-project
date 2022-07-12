@@ -1,0 +1,23 @@
+{
+  "blogs": [
+    {
+      "title": "Blog A",
+      "content": "Blog A content.Blog A content.Blog A content.Blog A content.Blog A content.Blog A content.",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "name": "Product D",
+      "market": "Market D",
+      "price": 100,
+      "id": 4
+    },
+    {
+      "name": "Product E",
+      "market": "Market E",
+      "price": 100,
+      "id": 5
+    }
+  ]
+}

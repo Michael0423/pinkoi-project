@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-left {
+    display: flex;
+}
+
+.menus {
+    justify-content: space-around;
+}
