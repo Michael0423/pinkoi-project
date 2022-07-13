@@ -3,7 +3,8 @@
 ## Used package
 
 + [Swipe](https://swiperjs.com/)
-+ Json Server for api
++ ~~Json Server for api~~
++ Firebase [Doc](https://firebase.google.com/docs/database/web/start)
 
 ## Run this project
 
@@ -23,6 +24,8 @@ npx json-server -p 3001 db.json
 ```
 
 ## Deploy project to github page
+
+Thanks for [this tool](https://github.com/gitname/react-gh-pages) let me can deploy my project easly.
 
 ```cmd
 npm run deploy
