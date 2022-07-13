@@ -14,10 +14,16 @@ npm install
 npm run start
 ```
 
-## Run json Server
+## Run json Server (If you need)
 
 + Need to set the api port to 3001.
 
 ```cmd
 npx json-server -p 3001 db.json
+```
+
+## Deploy project to github page
+
+```cmd
+npm run deploy
 ```

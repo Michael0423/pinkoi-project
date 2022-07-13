@@ -1,6 +1,9 @@
-const host = "http://localhost:3001";
+import configApi from "./config/config.api";
 
-export default {
-    productsAPI: `${host}/products`,
-    blogsAPI: `${host}/blogs`
+export async function getProducts() {
+    return await fetch(configApi.productsAPI).then(res => res.json());
+}
+
+export async function getBlogs() {
+    return await fetch(configApi.blogsAPI).then(res => res.json());
 }

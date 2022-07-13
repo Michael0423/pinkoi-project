@@ -9,7 +9,7 @@ import './Home.style.css'
 export default class Home extends Component {
     constructor(props) {
         super(props);
-        console.log(props);
+
         this.state = {isLogin: false};
 
         this.login = this.login.bind(this);
