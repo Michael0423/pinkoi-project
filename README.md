@@ -1,5 +1,7 @@
 # This is a prototype of shopping site referenced from Pinkoi
 
+[DEMO](https://michael0423.github.io/pinkoi-project/)
+
 ## Used package
 
 + [Swipe](https://swiperjs.com/)
